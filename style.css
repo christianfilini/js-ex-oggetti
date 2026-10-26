@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+body {
+    font-family: "Nunito", sans-serif;
+    padding: 20px 0;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+
+.title {
+    color: #e93670;
+    font-family: "Fredoka", sans-serif;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.grid {
+    min-height: 0;
+    display: grid;
+    width: 100%;
+    gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+
+.card {
+    display: flex;
+    background-color: black;
+    color: white;
+
+}
+
+.card-info {
+    font-family: "Fredoka", sans-serif;
+    padding: 15px;
+}
+
+.email {
+    color: aqua;
+
+
+}
+
+img {
+    width: 108px;
+    height: 108px;
+    object-fit: cover;
+    flex-shrink: 0;
+
+}
